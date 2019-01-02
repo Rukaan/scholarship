@@ -1,0 +1,32 @@
+{
+  "name": "nostratech",
+  "version": "0.0.1",
+  "description": "Awesome Tech Company",
+  "engines": {
+    "node": "10.x"
+  },
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass --watch ./src/sass -o ./public/stylesheets",
+    "build": "node-sass ./src/sass -o ./public/stylesheets",
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "ejs": "^2.5.6",
+    "express": "^4.15.2"
+  },
+  "devDependencies": {
+    "node-sass": "^4.11.0",
+    "request": "^2.81.0",
+    "tape": "^4.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/Rukaan/tech-company"
+  },
+  "keywords": [
+    "nostra"
+  ],
+  "license": "ISC"
+}

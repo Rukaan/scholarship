@@ -1,0 +1,214 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+@media (max-width: 767px) {
+  .rotate-md__90 {
+    transform: rotate(90deg); } }
+
+.remove {
+  display: none; }
+  @media (max-width: 767px) {
+    .remove-md {
+      display: none; } }
+  @media (min-width: 768px) {
+    .remove-md__above {
+      display: none; } }
+
+.icon {
+  line-height: 1.5rem; }
+
+.btn {
+  background: #93af2d;
+  color: #fff !important;
+  padding: 0.3rem 2.5rem !important;
+  border-radius: 8px;
+  font-size: 1.3em; }
+  .btn-default, .btn-default:link, .btn-default:visited {
+    background-color: #e1e8ec;
+    border-color: #e1e8ec; }
+  .btn-default:hover, .btn-default:active {
+    color: white;
+    background-color: #93af2d;
+    border-color: #93af2d; }
+
+.accordion .card:not(:last-child) {
+  margin-bottom: 1rem; }
+
+.accordion--content__expansion {
+  position: relative;
+  padding: .5rem .5rem 0 5rem;
+  border: none; }
+  .accordion--content__expansion .text--title {
+    color: #1e2674;
+    text-transform: uppercase; }
+    .accordion--content__expansion .text--title::after {
+      display: block;
+      padding-top: 1rem;
+      content: "";
+      width: 3rem;
+      border-bottom: 2px solid #1e2674; }
+  .accordion--content__expansion .collapse {
+    position: absolute;
+    top: 0;
+    bottom: 0; }
+  .accordion--content__expansion .collapsing {
+    transition: all 0s; }
+
+nav {
+  border-bottom: 1px solid #dddddd;
+  padding: 15px 0px !important; }
+
+.navbar-nav {
+  align-items: center; }
+  .navbar-nav--list {
+    padding: 0 0.75rem;
+    color: #7b7b7b; }
+    .navbar-nav--list:hover {
+      text-decoration: none;
+      color: #93af2d; }
+    .navbar-nav--list:last-child {
+      margin-left: 0.2rem; }
+
+.logo {
+  width: 75%;
+  height: auto; }
+
+.sub-footer {
+  padding: 2.5em 0px;
+  background: linear-gradient(to bottom, #7704d8 0%, #7704d8 78%, #ffffff 78%, #ffffff 100%);
+  color: #eaeaea; }
+  .sub-footer .container {
+    position: relative; }
+  .sub-footer--left {
+    padding-top: 1.3em;
+    padding-right: 1em; }
+    .sub-footer--left i {
+      float: left;
+      position: absolute;
+      left: 0; }
+    .sub-footer--left p {
+      font-size: 1.4em;
+      margin-bottom: 2.5em; }
+    .sub-footer--left p:not(:first-child) {
+      position: relative;
+      margin-bottom: 1.3em;
+      padding-left: 2em;
+      font-size: 1.2em; }
+  .sub-footer--box {
+    /*position: absolute;
+        right: 15px;
+        width: 90%;*/
+    border-radius: 8px;
+    background: #ffffff;
+    padding: 2.2em 3.5em;
+    box-shadow: 1px 1px 10px #a2a2a2;
+    margin-left: 2em; }
+    .sub-footer--box p {
+      color: #93af2d;
+      font-weight: bold;
+      font-size: 2em;
+      margin-bottom: 1em;
+      letter-spacing: 1px; }
+
+.footer {
+  padding: 1.5em 0; }
+  .footer ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: flex-end;
+    margin: unset; }
+    .footer ul li {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid #dddddd;
+      width: 3em;
+      height: 3em;
+      text-align: center;
+      border-radius: 50%; }
+      .footer ul li i {
+        font-size: 2em;
+        color: #93af2d; }
+
+#faq {
+  margin: 7rem 0; }
+
+#career {
+  margin: 7rem 0; }
+  #career .btn-default:hover, #career .btn-default:active {
+    background-color: #1e2674;
+    border-color: #1e2674; }
+  #career .accordion--content__expansion .text--title {
+    color: #93af2d; }
+    #career .accordion--content__expansion .text--title::after {
+      border-bottom: 2px solid #93af2d; }
+
+.jumbotron {
+  background-image: url("/img/beasiswa_luar_biasa_itb.jpg");
+  background-position: bottom;
+  background-size: cover;
+  color: white;
+  padding-top: 150px;
+  padding-bottom: 150px; 
+  border-radius: 0px;}
+  .jumbotron h1{
+    font-size: 48px;}
+  .jumbotron h1, .jumbotron h3{
+    text-shadow: 2px 1px gray;}
+  .jumbotron .btn-primary {
+    background: #845ac7;
+    border-color: #845ac7; }
+    .jumbotron .btn-primary:hover {
+      background: #7646c1; }
+
+  .circle-logo{
+    width: 100%;
+    border-radius: 50%;
+    background-color: #a1bacc;
+    padding: 12px;}
+
+  .box-logo{
+    width: 100%;
+    border-radius: 10px;
+    background-color: #a1bacc;
+    padding: 12px;}
+
+  .overlay{
+    position: absolute;
+    border-radius: 10px;
+    top: 0;
+    bottom: 0;
+    left: 15px;
+    right: 15px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;}
+    .overlay .text-box{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100%;}
+    .col-md:hover .overlay {
+      opacity: 1;
+    }
+
+  .img-container{
+    background-image:url(/img/graduation_college_scholarship.jpg);
+    background-position: bottom;
+    background-size: cover;
+    color: white;
+    padding-top: 150px;
+    padding-bottom: 150px;}
+  
+  .achievement-box{
+    width:100%;
+    padding: 0px 20px;
+    text-align: center;}
+  .achievement-logo{
+    width: 100%}
+
+  .img-sponsor{
+    width: 100%;}

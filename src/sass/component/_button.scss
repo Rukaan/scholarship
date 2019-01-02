@@ -1,0 +1,23 @@
+// Overriding
+.btn {
+    background: $primaryColor;
+    color: #fff !important;
+    padding: 0.3rem 2.5rem !important;
+    border-radius: 8px;
+    font-size: 1.3em;
+
+    &-default {
+        &,
+        &:link,
+        &:visited {
+            background-color: $greyColor;
+            border-color: $greyColor;
+        }
+        &:hover,
+        &:active {
+            color: white;
+            background-color: $primaryColor;
+            border-color: $primaryColor;
+        }
+    }
+}
